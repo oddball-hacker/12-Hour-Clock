@@ -1,0 +1,186 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Software projects/Quartus/12_hr_clk/simulation/modelsim
+vcount1
+Z1 !s110 1707321029
+!i10b 1
+!s100 g7D8l@;<H==9mIh`I]iXX1
+Iid6T_0zJ6@YoF7d<KMXRA0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1707321004
+Z4 8D:/Software projects/Quartus/12_hr_clk/top_module.v
+Z5 FD:/Software projects/Quartus/12_hr_clk/top_module.v
+L0 114
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1707321029.000000
+Z8 !s107 D:/Software projects/Quartus/12_hr_clk/top_module.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Software projects/Quartus/12_hr_clk|D:/Software projects/Quartus/12_hr_clk/top_module.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+D:/Software projects/Quartus/12_hr_clk}
+Z12 tCvgOpt 0
+vcount12
+R1
+!i10b 1
+!s100 mG01l4J^ff9j>``2UJ1bJ1
+IbKb6I[`Qo?Hg2zY^YJBMO3
+R2
+R0
+R3
+R4
+R5
+L0 136
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vcount2
+R1
+!i10b 1
+!s100 I6cAE?1GiC_C;D^SmDch93
+I:6jm`R^IEag<MClD_>R2R2
+R2
+R0
+R3
+R4
+R5
+L0 84
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vcount59
+R1
+!i10b 1
+!s100 YHo?f1?MbG2JA><9ncK^13
+IANlli^ZN:9loIDR818ca41
+R2
+R0
+R3
+R4
+R5
+L0 70
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vcount_5
+R1
+!i10b 1
+!s100 AWhfVRf`icPN0z0d6_Ldc0
+IZMF92SZBUz2[T]dAjFOiN0
+R2
+R0
+R3
+R4
+R5
+L0 45
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vcount_9
+R1
+!i10b 1
+!s100 YgLhW<P9J47cGOBhA]PKO1
+I4XZ_jNSVn_K;6HecEIYXf2
+R2
+R0
+R3
+R4
+R5
+L0 22
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vtestbench
+R1
+!i10b 1
+!s100 g]_T4AlaU4EN<7o5Z?2ac0
+I9=3`^PM:R2:>n;Wi:RZ320
+R2
+R0
+w1707318596
+8D:/Software projects/Quartus/12_hr_clk/testbench.v
+FD:/Software projects/Quartus/12_hr_clk/testbench.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Software projects/Quartus/12_hr_clk/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Software projects/Quartus/12_hr_clk|D:/Software projects/Quartus/12_hr_clk/testbench.v|
+!i113 1
+R10
+R11
+R12
+vtop_module
+R1
+!i10b 1
+!s100 AngJ>j=nD0UQ0?k;U=?^H3
+IHiQG4U2`VYKCLXi6lV[A81
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

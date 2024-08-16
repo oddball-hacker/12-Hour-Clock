@@ -1,0 +1,188 @@
+|top_module
+clk => clk.IN3
+reset => reset.IN3
+ena => ena.IN3
+pm <= pm~reg0.DB_MAX_OUTPUT_PORT_TYPE
+hh[0] <= count12:hours.port4
+hh[1] <= count12:hours.port4
+hh[2] <= count12:hours.port4
+hh[3] <= count12:hours.port4
+hh[4] <= count12:hours.port4
+hh[5] <= count12:hours.port4
+hh[6] <= count12:hours.port4
+hh[7] <= count12:hours.port4
+mm[0] <= count59:minutes.port4
+mm[1] <= count59:minutes.port4
+mm[2] <= count59:minutes.port4
+mm[3] <= count59:minutes.port4
+mm[4] <= count59:minutes.port4
+mm[5] <= count59:minutes.port4
+mm[6] <= count59:minutes.port4
+mm[7] <= count59:minutes.port4
+ss[0] <= count59:seconds.port4
+ss[1] <= count59:seconds.port4
+ss[2] <= count59:seconds.port4
+ss[3] <= count59:seconds.port4
+ss[4] <= count59:seconds.port4
+ss[5] <= count59:seconds.port4
+ss[6] <= count59:seconds.port4
+ss[7] <= count59:seconds.port4
+
+
+|top_module|count59:seconds
+clk => clk.IN2
+enable => ena.IN0
+reset => reset.IN2
+enablem => ena.IN1
+out59[0] <= count_9:aloo.port4
+out59[1] <= count_9:aloo.port4
+out59[2] <= count_9:aloo.port4
+out59[3] <= count_9:aloo.port4
+out59[4] <= count_5:paratha.port5
+out59[5] <= count_5:paratha.port5
+out59[6] <= count_5:paratha.port5
+out59[7] <= count_5:paratha.port5
+enableout <= enableout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_module|count59:seconds|count_5:paratha
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+enable => always1.IN0
+enablem => always1.IN1
+enableout <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_module|count59:seconds|count_9:aloo
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+enable => out.OUTPUTSELECT
+enable => out.OUTPUTSELECT
+enable => out.OUTPUTSELECT
+enable => out.OUTPUTSELECT
+enableout <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_module|count59:minutes
+clk => clk.IN2
+enable => ena.IN0
+reset => reset.IN2
+enablem => ena.IN1
+out59[0] <= count_9:aloo.port4
+out59[1] <= count_9:aloo.port4
+out59[2] <= count_9:aloo.port4
+out59[3] <= count_9:aloo.port4
+out59[4] <= count_5:paratha.port5
+out59[5] <= count_5:paratha.port5
+out59[6] <= count_5:paratha.port5
+out59[7] <= count_5:paratha.port5
+enableout <= enableout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_module|count59:minutes|count_5:paratha
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+enable => always1.IN0
+enablem => always1.IN1
+enableout <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_module|count59:minutes|count_9:aloo
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+enable => out.OUTPUTSELECT
+enable => out.OUTPUTSELECT
+enable => out.OUTPUTSELECT
+enable => out.OUTPUTSELECT
+enableout <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_module|count12:hours
+clk => clk.IN2
+enable => ena.IN0
+reset => reset.IN2
+enablem => ena.IN1
+h[0] <= count2:maggi.port6
+h[1] <= count2:maggi.port6
+h[2] <= count2:maggi.port6
+h[3] <= count2:maggi.port6
+h[4] <= outL.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= count1:coconut.port5
+h[6] <= count1:coconut.port5
+h[7] <= count1:coconut.port5
+
+
+|top_module|count12:hours|count1:coconut
+clk => outL.CLK
+reset => outL.OUTPUTSELECT
+enable => outL.OUTPUTSELECT
+cond => outL.OUTPUTSELECT
+condout <= outL.DB_MAX_OUTPUT_PORT_TYPE
+out[0] <= outL.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= <GND>
+out[2] <= <GND>
+out[3] <= <GND>
+
+
+|top_module|count12:hours|count2:maggi
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+enable => out.OUTPUTSELECT
+enable => out.OUTPUTSELECT
+enable => out.OUTPUTSELECT
+enable => out.OUTPUTSELECT
+cond => always1.IN1
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+reset => out.OUTPUTSELECT
+outL => always0.IN1
+condout <= always0.DB_MAX_OUTPUT_PORT_TYPE
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

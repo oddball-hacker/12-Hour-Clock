@@ -1,0 +1,13 @@
+//Testbench
+
+module testbench;
+
+top_module test ( clk, reset, ena, pm, hh, mm, ss );
+
+initial begin
+clk = 0;
+reset = 1;
+#500 $finish;
+end
+
+always #1 clk = ~ clk;
